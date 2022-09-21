@@ -1,0 +1,135 @@
+.container{
+    width: 100vw;
+}
+
+.contenido-centrado{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.encabezado{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.encabezado img,
+.encabezado div{
+    width: 50%;
+}
+
+.encabezado img{
+    height: 25rem;
+    width: 20rem;
+    border-radius: 8%;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h1, h2{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 50px;
+    color: rgb(0, 69, 219);
+    margin-bottom: 0;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.experiencia-skills{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+li{
+    text-align: left;
+}
+
+p span{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.redes-sociales{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.redes-sociales p{
+    margin-top: 0px;
+}
+
+.my-pages{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+}
+
+.my-pages ul{
+    text-align: start;
+}
+
+.my-pages ul li{
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+.my-pages h2{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(15, 0, 100);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tecnologias{
+    text-align: left;
+    margin-left: 40px;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.bg{
+    background-image: linear-gradient(-225deg, #d4ecec 0%, #e9e3e6 52%, #00ffea 100%);
+}
+
+.footer{
+    margin-top: 50px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer p{
+    padding: 30px 0 10px 0;
+    margin: 0;
+    background-color: #ebebeb;
+}
+
+.footer p:last-child{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
